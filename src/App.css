@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lato:wght@300;900&family=Merriweather&family=Montserrat&family=Sacramento&family=Ubuntu:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > * {
+  width: 100%;
+}

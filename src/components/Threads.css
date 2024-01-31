@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+.content {
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.content .back-links {
+  text-align: left;
+  font-weight: 100;
+}
+
+.data {
+  padding: 2% 5%;
+}
+
+/* .post-data {
+  padding: 2% 5%;
+} */
+.post-data .Ques-data {
+  line-height: 1.5;
+}
+.post-data .Ques {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0 0 5px 0;
+}
+
+.post-data .Ques-user {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.post-data .Ques-by {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.Ques-post {
+  text-align: left;
+  padding: 20px 0;
+}
+
+.Ques-post h1 {
+  font-weight: 600;
+}
+
+.Ques-post textarea,
+#text-box {
+  width: 100%;
+  height: 100px;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.Ques-post button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  background-color: #00aa0e;
+}
+
+.Ques-post button:hover {
+  background-color: #00cc11;
+}
+
+/* list of questions style  */
+.list-data h1 {
+  text-align: left;
+}
+
+.list-data > div {
+  text-align: left;
+  line-height: 2;
+  margin: 10px 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #b4b4b4;
+  box-shadow: 2px 2px 8px #f4f5f6, -2px -2px 8px #fff;
+}
+
+.q {
+  color: #6e6e6e;
+  font-size: 0.9rem;
+}
+
+.ques-head {
+  font-size: 1.2rem;
+}
+
+.ques-desc {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+  .list-data > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .list-data .right {
+    width: 100%;
+    text-align: right;
+  }
+
+  .ques-head {
+    font-size: 1.1rem;
+  }
+}
