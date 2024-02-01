@@ -1,8 +1,8 @@
 # Getting Started with `BECLEARED-client side`
 
 This project is developed using React.JS.\
-create a main folder and download the project files and store it in the main folder.\
-Open the project folder in your IDE and in the terminal type npm install to download all the packages need.\
+Create a main folder and download/clone the project files and store it in the main folder.\
+Open the project folder in your IDE and in the terminal type `npm install` to download all the packages need.\
 For the above steps to work. firstly, install node.JS in your machine.\
 After client-side code go for adding [backend project](https://github.com/Vamshikrishnakulla/becleared-backend) from here.
 
